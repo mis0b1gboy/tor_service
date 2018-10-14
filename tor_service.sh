@@ -15,5 +15,4 @@ echo '"--without-bzip2"' >> config.sh
 sh config.sh
 make
 make install
-mkdir ~/light
 mv ~/tor_service/lighttpd.conf ~/light/
