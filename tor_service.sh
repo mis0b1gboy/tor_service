@@ -8,6 +8,6 @@ sudo lighttpd-enable-mod userdir
 sudo service lighttpd reload
 mkdir /home/ubuntu/hidden_service
 mkdir /home/ubuntu/other_hidden_service
-sudo cp torrc /etc/tor
+sudo cp /home/ubuntu/tor_service/torrc /etc/tor
 chmod 700 /home/ubuntu/hidden_service
 chmod 700 /home/ubuntu/other_hidden_service
