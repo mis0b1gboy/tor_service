@@ -3,7 +3,7 @@
 cd ~/ 
 sudo DEBIAN_FRONTEND=noninteractive apt-get update -y && sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get install build-essential libevent-dev tor openssl lighttpd zlib1g-dev libssl-dev  -y
-cp lighttpd.conf /etc/lighttpd
+sudo cp lighttpd.conf /etc/lighttpd
 sudo lighttpd-enable-mod userdir
 sudo service lighttpd reload
 mkdir /home/ubuntu/hidden_service
